@@ -1,0 +1,285 @@
+.header{
+    background-color:#fafafa;
+    height:50px;
+    width:100%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.buttons{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    width:400px;
+
+}
+.contact-us{
+    height:40px;
+    width:80px;
+    background-color: black;
+    color:white;
+    border-radius:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-us:hover{
+    height:40px;
+    width:80px;
+    background-color: rgb(111, 111, 255);
+    color:black;
+    border-radius:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    background-image: url('/logo.png');
+   background-repeat:no-repeat;
+   background-size:contain;
+   height:60px;width:150px;
+}
+.fir-heading{
+    margin-top:10px;
+    font-size: 90px;
+    color:black;
+}
+.allfir-headings{
+    margin-top: 50px;;
+}
+.learn-more{
+    margin-top:40px;
+    height:40px;
+    width:80px;
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white
+}
+.h:hover {
+    height:40px;
+    width:80px;
+    background-color: rgb(78, 78, 78);
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.learn-more:hover{
+    height:40px;
+    width:80px;
+    background-color: rgb(111, 111, 255);
+    color:black;
+    border-radius:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fir-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.firstreview{
+    height:200px;
+    width:400px;
+    background-color: black;
+    border-radius: 10px;
+    color: #fafafa;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction:column;
+}
+p{
+    font-family: 'Chakra Petch', sans-serif;
+    margin: 8px;;
+}
+.id{
+    font-family: 'Kalam', cursive;
+    color:rgb(163, 163, 163);
+    font-size: 30px;
+}
+.thi-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.thirdpage{
+    background-color: rgb(255, 248, 249);
+    height:100vh;
+}
+.firstreview{
+    margin-top:20px;
+    position: relative;
+    animation: myfirst 5s 28;
+    animation-direction: alternate;
+}
+      
+      @keyframes myfirst {
+        0%   {background: rgb(255, 182, 182); left: 0px; top: 0px;}
+        25%  {background: rgb(245, 245, 155); left: 100px; top: 0px;}
+        50%  {background: rgb(158, 158, 255); left: 100px; }
+        75%  {background: rgb(171, 251, 171); left: 0px;}
+        100% {background: red; left: 0px; top: 0px;}
+      }
+      @keyframes myfirst1 {
+        0%   {background: rgb(255, 182, 182); right: 0px; top: 0px;}
+        25%  {background: rgb(245, 245, 155); right: 100px; top: 0px;}
+        50%  {background: rgb(158, 158, 255); right: 100px; }
+        75%  {background: rgb(171, 251, 171); right: 0px;}
+        100% {background: red; right: 0px; top: 0px;}
+      }
+
+.secondreview{
+    margin-top:60px;
+    height:200px;
+    width:400px;
+    background-color: black;
+    border-radius: 10px;
+    color: #fafafa;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction:column;
+    margin-left: 20px;
+    position: relative;
+    animation: myfirst1 5s 28;
+    animation-direction: alternate;
+    
+}
+.thirdreview{
+    margin-top:60px;
+    height:200px;
+    width:400px;
+    background-color: black;
+    border-radius: 10px;
+    color: #fafafa;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction:column;
+    position: relative;
+    animation: myfirst1 5s 28;
+    animation-direction: alternate;
+    
+
+}
+.forthreview{
+    margin-top:60px;
+    height:200px;
+    width:400px;
+    background-color: black;
+    border-radius: 10px;
+    color: #fafafa;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction:column;
+    margin-left: 20px;
+    position: relative;
+    animation: myfirst 5s 28;
+    animation-direction: alternate;
+}
+.heading{
+    width:100%;
+    height:80px;
+    font-size:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.firstpage{
+    height:100vh;
+}
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;600&display=swap');
+
+.secondpageheading{
+    font-size: 30px;
+    font-weight: bold;
+    color: #000000;
+    /* margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 475px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second{
+    margin-left: 475px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #000000;
+}
+.second-para{
+    
+    color: #000000;
+    font-family: 'Rajdhani', sans-serif;
+}
+.second-line{
+    margin-left: 770px;
+    margin-top: -20px;
+    font-size: 20px;
+    color: #000000;
+    font-family: 'Rajdhani', sans-serif;
+}
+.second-font{
+    font-family: 'Rajdhani', sans-serif;
+}
+.hl{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+.pic{
+    width: 750px;
+    height: 600px;
+    background-color: rgb(198, 146, 198);
+    border-radius: 10px;
+    display: flex;
+}
+.logo1{
+    border-radius: 20px;
+    border: solid black 1px;
+    width: 70px;
+    margin-left: 50px;
+    font-weight: 100;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.head{
+    margin-top: 90px;
+    margin-left: -73px;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 50px;
+}
+.imm{
+    margin-top: 200px;
+    margin-left: -360px;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+}
+.main-text{
+    margin-top: 180px;
+    font-weight: 500;
+
+}
+.p{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+  
+}
+.pic-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+}
